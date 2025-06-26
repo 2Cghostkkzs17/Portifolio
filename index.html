@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/imagem_2025-06-23_230413200.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o Gabriel</p>
+        <h1>Eu sou estudante de programação do Alura</h1>
+        <p>Olá, sou o Gabriel Dias, estudante de programação do Alura e esses são os meus projetos.!</p>
+        <p>Meus Projetos</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">VScode</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Screenshot 2025-05-28 14.56.03.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">AluraFlix:</h5>
+                        <p class="card-text">O AluraFlix é um site para avaliar filmes com criticas, como o da imagem com o nome Homem Aranha no Aranha-Verso.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Screenshot 2025-05-28 14.57.50.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Em busca do Mundo Perdido:</h5>
+                        <p class="card-text">Em Busca do Mundo Perdido é um jogo de escolhas para chegar em uma região perdida de uma floresta com muitas riquezas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Screenshot 2025-05-28 14.58.46.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">FlashCard:
+<p class="card-text"></p>FlashCard é um trabalho com cartas com perguntas, ao dar um click a carta vira e mostra a resposta da pergunta.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mais sobre o projeto:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>AluraFlix foi feito no intuito de um site para avaliar filmes e criticar, feito pelo VScode com Index e Styles, as cores foram bem aleatorias mas é para combinar com as cores do Alura.</p>
+                    </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="file:///media/fuse/drivefs-1a5782787b2a6e957b5e279cf593addc/root/AluraFlix/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/2Cghostkkzs17/AluraFlix">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mais sobre o projeto:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> O projeto "Em Busca do Mundo perdido" foi feito para ser um jogo interativo com escolhas para chegar em uma região perdida cheia de tesouros, feito pelo VScode com html e styles, as cores escolhidas foram para combinar com a natureza que é na tematica do projeto
+                    </p>
+                    
+
+                    </p>
+                    <img src="img/projeto_1" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="file:///media/fuse/drivefs-1a5782787b2a6e957b5e279cf593addc/root/Aventura%20do%20Alura/index.html">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/2Cghostkkzs17/Historia-da-Cidade-Perdid">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mais sobre o FlashCard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O FlashCard foi feito foi para ser um pergunta e resposta com intuito de ensinar assuntos a mais de certas materias, feito pelo Vscode por Index e Style.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/2Cghostkkzs17/terceiro-projeto-4-bimestre">Veja o codigo do projeto.</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+    
